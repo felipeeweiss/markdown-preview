@@ -2,7 +2,13 @@
 
 A real-time Markdown editor and preview built with React (Class Components), TypeScript, TailwindCSS, and Vite.
 
-The interface is split into two panels: a **Markdown editor** on the left and a **live preview** on the right, updated as you type.
+The interface is split into two panels: a **Markdown editor** on the left and a **live preview** on the right, updated as you type. It also supports **light and dark mode**, with the preference saved to `localStorage`.
+
+## Features
+
+- Real-time Markdown preview as you type
+- Light and dark mode toggle — preference persisted in `localStorage`, falls back to system preference
+- GitHub Flavored Markdown (GFM) support: tables, strikethrough, task lists, and more
 
 ## Tech Stack
 

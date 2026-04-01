@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@layer base {
+  .prose h1,
+  .prose h2 {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family:
+      system-ui,
+      'Segoe UI',
+      Roboto,
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+  }
+}
